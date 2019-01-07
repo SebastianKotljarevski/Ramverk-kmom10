@@ -31,7 +31,7 @@ class CreatePostForm extends FormModel
                 ],
 
                 "text" => [
-                    "type"        => "text",
+                    "type"        => "textarea",
                 ],
 
                 "taggar" => [

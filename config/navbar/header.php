@@ -15,6 +15,11 @@ return [
             "title" => "Första sidan, börja här.",
         ],
         [
+            "text" => "Om",
+            "url" => "about",
+            "title" => "Om-sida.",
+        ],
+        [
             "text" => "Logga in",
             "url" => "login",
             "title" => "Logga in.",

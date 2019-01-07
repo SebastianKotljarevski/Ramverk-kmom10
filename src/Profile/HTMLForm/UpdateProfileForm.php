@@ -36,7 +36,7 @@ class UpdateProfileForm extends FormModel
 
                 "email" => [
                     "type" => "text",
-                    "validation" => ["not_empty"],
+                    "validation" => ["email"],
                     "value" => $user->email,
                 ],
 

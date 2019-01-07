@@ -30,7 +30,8 @@ class CreateUserForm extends FormModel
                 ],
 
                 "email" => [
-                    "type"        => "text",
+                    "type" =>"text",
+                    "validation" => ["email"],
                 ],
 
                 "password" => [
