@@ -56,7 +56,7 @@ class UserLoginForm extends FormModel
      * @return boolean true if okey, false if something went wrong.
      */
      public function callbackSubmit()
-    {
+     {
         // Get values from the submitted form
         $acronym       = $this->form->value("user");
         $password      = $this->form->value("password");

@@ -13,6 +13,8 @@ CREATE TABLE User (
     "acronym" TEXT UNIQUE NOT NULL,
     "email" TEXT,
     "password" TEXT,
+    "firstname" TEXT,
+    "lastname" TEXT,
     "created" TIMESTAMP,
     "updated" DATETIME,
     "deleted" DATETIME,
